@@ -6,5 +6,8 @@ export default defineConfig({
   clean: true,
   dts: true,
   sourcemap: false,
-  minify: false
+  minify: true,
+  deps: {
+    neverBundle: ['vue']
+  }
 });

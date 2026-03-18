@@ -1,3 +1,1 @@
-export function fn() {
-  return '';
-}
+export * from './use-table';
