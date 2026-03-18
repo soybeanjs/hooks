@@ -1,0 +1,67 @@
+{
+  "name": "@soybeanjs/hooks",
+  "version": "0.0.0",
+  "description": "some useful hooks for vue",
+  "homepage": "https://github.com/soybeanjs/hooks",
+  "bugs": {
+    "url": "https://github.com/soybeanjs/hooks/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Soybean",
+    "email": "soybeanjs@outlook.com",
+    "url": "https://github.com/soybeanjs"
+  },
+  "repository": {
+    "url": "https://github.com/soybeanjs/hooks.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "cleanup": "soy cleanup",
+    "commit": "soy git-commit",
+    "lint": "oxlint --fix && oxfmt",
+    "fmt": "oxfmt",
+    "prepare": "simple-git-hooks",
+    "publish-pkg": "pnpm publish --access public",
+    "release": "soy release",
+    "typecheck": "tsc --noEmit --skipLibCheck",
+    "upkg": "soy update-pkg"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@soybeanjs/cli": "^1.6.1",
+    "@types/node": "^25.5.0",
+    "lint-staged": "^16.4.0",
+    "oxfmt": "^0.41.0",
+    "oxlint": "^1.56.0",
+    "simple-git-hooks": "^2.13.1",
+    "tsdown": "^0.21.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "pnpm soy git-commit-verify",
+    "pre-commit": "pnpm typecheck && pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "oxlint --fix && oxfmt"
+  },
+  "packageManager": "pnpm@10.32.1"
+}
