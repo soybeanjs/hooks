@@ -36,16 +36,16 @@
     "build": "tsdown",
     "cleanup": "soy cleanup",
     "commit": "soy git-commit",
-    "lint": "oxlint --fix && oxfmt",
+    "lint": "oxlint --fix",
     "fmt": "oxfmt",
     "prepare": "simple-git-hooks",
     "publish-pkg": "pnpm publish --access public",
     "release": "soy release",
     "typecheck": "tsc --noEmit --skipLibCheck",
-    "upkg": "soy update-pkg"
+    "upkg": "soy ncu"
   },
   "devDependencies": {
-    "@soybeanjs/cli": "^1.6.1",
+    "@soybeanjs/cli": "^1.7.1",
     "@types/node": "^25.5.0",
     "lint-staged": "^16.4.0",
     "oxfmt": "^0.41.0",
