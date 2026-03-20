@@ -31,9 +31,9 @@ export type TableColumnCheckTitle = VNode | Component | string;
 export type TableColumnCheck = {
   key: string;
   title: TableColumnCheckTitle;
-  checked: boolean;
-  hidden: boolean;
-  fixed: boolean | 'right';
+  checked?: boolean;
+  hidden?: boolean;
+  fixed?: boolean | 'right';
 };
 
 export interface UseTableOptions<ResponseData, ApiData, Column, Pagination extends boolean> {
