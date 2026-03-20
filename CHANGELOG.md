@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [v0.0.3](https://github.com/soybeanjs/hooks/compare/v0.0.2...v0.0.3) (2026-03-20)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **use-table**: make TableColumnCheck properties optional &nbsp;-&nbsp; by @soybeanjs [<samp>(992fa)</samp>](https://github.com/soybeanjs/hooks/commit/992faae)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
 ## [v0.0.2](https://github.com/soybeanjs/hooks/compare/v0.0.1...v0.0.2) (2026-03-20)
 
 ### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
