@@ -112,7 +112,7 @@ export function useTable<ResponseData, ApiData, Column, Pagination extends boole
     });
   }
 
-  async function getData() {
+  async function fetchData() {
     try {
       loading.value = true;
 
@@ -131,7 +131,7 @@ export function useTable<ResponseData, ApiData, Column, Pagination extends boole
   }
 
   if (immediate) {
-    getData();
+    fetchData();
   }
 
   return {
@@ -141,7 +141,7 @@ export function useTable<ResponseData, ApiData, Column, Pagination extends boole
     columns: $columns,
     columnChecks,
     reloadColumns,
-    getData
+    fetchData
   };
 }
 
