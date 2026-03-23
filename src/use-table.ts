@@ -81,7 +81,7 @@ export function useTable<ResponseData, ApiData, Column, Pagination extends boole
 
   const { api, pagination, transform, columns, getColumnChecks, getColumns, onFetched, immediate = true } = options;
 
-  const data = ref([]) as Ref<ApiData[]>;
+  const tableData = ref([]) as Ref<ApiData[]>;
 
   const columnChecks = ref(getColumnChecks(columns())) as Ref<TableColumnCheck[]>;
 
@@ -120,9 +120,9 @@ export function useTable<ResponseData, ApiData, Column, Pagination extends boole
 
       const transformed = transform(response);
 
-      data.value = getTableData(transformed, pagination);
+      tableData.value = getTableData(transformed, pagination);
 
-      empty.value = data.value.length === 0;
+      empty.value = tableData.value.length === 0;
 
       await onFetched?.(transformed);
     } finally {
@@ -137,7 +137,7 @@ export function useTable<ResponseData, ApiData, Column, Pagination extends boole
   return {
     loading,
     empty,
-    data,
+    tableData,
     columns: $columns,
     columnChecks,
     reloadColumns,
