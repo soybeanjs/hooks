@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [v0.1.0](https://github.com/soybeanjs/hooks/compare/v0.0.4...v0.1.0) (2026-03-23)
+
+### &nbsp;&nbsp;&nbsp;🚨 Breaking Changes
+
+- **use-table**: rename data to tableData for clarity &nbsp;-&nbsp; by @soybeanjs [<samp>(d420d)</samp>](https://github.com/soybeanjs/hooks/commit/d420d38)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
 ## [v0.0.4](https://github.com/soybeanjs/hooks/compare/v0.0.3...v0.0.4) (2026-03-20)
 
 ### &nbsp;&nbsp;&nbsp;🚨 Breaking Changes
