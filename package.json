@@ -1,6 +1,6 @@
 {
   "name": "@soybeanjs/hooks",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "some useful hooks for vue",
   "homepage": "https://github.com/soybeanjs/hooks",
   "bugs": {

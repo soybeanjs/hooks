@@ -1,6 +1,24 @@
 # Changelog
 
 
+## [v0.2.0](https://github.com/soybeanjs/hooks/compare/v0.1.0...v0.2.0) (2026-04-18)
+
+### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
+
+- **lint-staged**: update lint command to include current directory &nbsp;-&nbsp; by @soybeanjs [<samp>(1d6cf)</samp>](https://github.com/soybeanjs/hooks/commit/1d6cf8f)
+
+### &nbsp;&nbsp;&nbsp;💅 Refactors
+
+- **use-table**: change fixed property type to 'start' &nbsp;-&nbsp; by @soybean [<samp>( 'end)</samp>](https://github.com/soybeanjs/hooks/commit/ 'end')
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps &nbsp;-&nbsp; by @soybeanjs [<samp>(039d0)</samp>](https://github.com/soybeanjs/hooks/commit/039d0b1)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybean](https://github.com/soybean.png?size=48)](https://github.com/soybean)&nbsp;&nbsp;[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
 ## [v0.1.0](https://github.com/soybeanjs/hooks/compare/v0.0.4...v0.1.0) (2026-03-23)
 
 ### &nbsp;&nbsp;&nbsp;🚨 Breaking Changes
