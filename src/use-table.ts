@@ -33,7 +33,7 @@ export type TableColumnCheck = {
   title: TableColumnCheckTitle;
   checked?: boolean;
   hidden?: boolean;
-  fixed?: boolean | 'right';
+  fixed?: 'start' | 'end';
 };
 
 export interface UseTableOptions<ResponseData, ApiData, Column, Pagination extends boolean> {
