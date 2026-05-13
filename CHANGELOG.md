@@ -1,6 +1,20 @@
 # Changelog
 
 
+## [v0.3.0](https://github.com/soybeanjs/hooks/compare/v0.2.0...v0.3.0) (2026-05-13)
+
+### &nbsp;&nbsp;&nbsp;🚀 Features
+
+- **use-context**: add useContext hook for context management &nbsp;-&nbsp; by @soybeanjs [<samp>(5b554)</samp>](https://github.com/soybeanjs/hooks/commit/5b554c8)
+
+### &nbsp;&nbsp;&nbsp;🏡 Chore
+
+- **deps**: update deps and update pnpm to v11 &nbsp;-&nbsp; by @soybeanjs [<samp>(56721)</samp>](https://github.com/soybeanjs/hooks/commit/56721b1)
+
+### &nbsp;&nbsp;&nbsp;❤️ Contributors
+
+[![soybeanjs](https://github.com/soybeanjs.png?size=48)](https://github.com/soybeanjs)&nbsp;&nbsp;
+
 ## [v0.2.0](https://github.com/soybeanjs/hooks/compare/v0.1.0...v0.2.0) (2026-04-18)
 
 ### &nbsp;&nbsp;&nbsp;🐞 Bug Fixes
